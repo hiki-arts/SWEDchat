@@ -8,9 +8,9 @@
   },
   
   "scripts": {
-  "start": "node index.js"
+  "start": "index.js"
 },
 
-"main": "index.html"
+"main": "index.js"
   
 }
