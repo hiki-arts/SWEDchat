@@ -1,17 +1,11 @@
 {
-  "name": "WhatIsLove-Excellent-WebChat-Yo",
-  "version": "0.0.1",
-  "description": "Baby don't hurt me...",
-  
-  "dependencies": {
-    "socket.io": "^1.4.5"
-  },
-  
+  "name": "openshift-cartridge-nodejs-template",
+  "version": "1.0.1",
+  "description": "Custom Node.js cartridge for OpenShift - sample application",
+  "main": "index.js",
   "scripts": {
-  "start": "node index.js --websocket-port=$OPENSHIFT_NODEJS_PORT --log-level=1"
-  
-},
-
-"main": "index.js"
-  
+    "start": "node index.js"
+  },
+  "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
+  "license": "ISC"
 }
