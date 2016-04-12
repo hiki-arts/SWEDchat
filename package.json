@@ -2,13 +2,15 @@
   "name": "WhatIsLove-Excellent-WebChat-Yo",
   "version": "0.0.1",
   "description": "Baby don't hurt me...",
+  
   "dependencies": {
     "socket.io": "^1.4.5"
-  }
+  },
   
   "scripts": {
-  "start": "index.js"
+  "start": "node index.js"
 },
+
 "main": "index.html"
   
 }
